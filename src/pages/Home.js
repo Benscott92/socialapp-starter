@@ -3,6 +3,7 @@ import LoginForm from "../components/loginForm/LoginForm";
 import Menu from "../components/menu/Menu";
 import { userIsNotAuthenticated } from "../redux/HOCs";
 import RegistrationForm from "../components/registrationForm/RegistrationForm";
+import MessagesForm from "../components/messageForm/MessagesForm";
 
 class Home extends React.Component {
   render() {
